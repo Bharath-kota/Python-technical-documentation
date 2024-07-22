@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  font-size: 6vh;
+  text-align: center;
+}
+.navigator {
+  display: flex;
+  border: 3px double black;
+  width: 250px;
+  padding: 10px;
+  height: 300px;
+  position: relative;
+  left: 50px;
+}
+
+.navigator li {
+  margin: 15px 0;
+}
+
+@media max-width(1000px) {
+  
+}
